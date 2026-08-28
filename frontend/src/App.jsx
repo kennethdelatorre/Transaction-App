@@ -1,13 +1,13 @@
 import { useState, useEffect, useCallback } from "react";
-import SearchBar from "./components/SearchBar.jsx";
-import TransactionForm from "./components/TransactionForm.jsx";
-import TransactionList from "./components/TransactionList.jsx";
+import TransactionForm from "./components/TransactionForm";
+import TransactionList from "./components/TransactionList";
+import SearchBar from "./components/SearchBar";
 import {
   getTransactions,
   createTransaction,
   updateTransaction,
   deleteTransaction,
-} from "./api/api.js";
+} from "./api/api";
 import "./App.css";
 
 export default function App() {
